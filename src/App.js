@@ -1,4 +1,5 @@
 import "./App.css";
+import Info from "./components/Info/Info";
 import Keyboard from "./components/Keyboard/Keyboard";
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <div className="container">
-      <span className="message">Calling...</span>
+      <Info />
       <main className="phone">
         <Keyboard action={clickNumber} />
         <div className="actions">
