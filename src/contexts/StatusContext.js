@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
 const StatusContext = createContext();
-StatusContext.displayName = "GentlemenContext";
+StatusContext.displayName = "StatusContext";
 
 export default StatusContext;

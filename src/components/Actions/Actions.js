@@ -1,11 +1,11 @@
 import Display from "../Display/Display";
 import Action from "../Action/Action";
 
-const Actions = ({ numbers }) => {
+const Actions = () => {
   return (
     <>
       <div className="actions">
-        <Display numbers={numbers} />
+        <Display />
         <Action />
       </div>
     </>
