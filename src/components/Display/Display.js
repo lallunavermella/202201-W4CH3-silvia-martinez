@@ -1,7 +1,7 @@
-const Display = ({ number }) => {
+const Display = ({ numbers }) => {
   return (
     <>
-      <span className="number">{number}</span>
+      <span className="number">{numbers}</span>
     </>
   );
 };
