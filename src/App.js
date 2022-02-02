@@ -4,7 +4,9 @@ import Keyboard from "./components/Keyboard/Keyboard";
 import Actions from "./components/Actions/Actions";
 
 function App() {
-  const clickNumber = () => {};
+  const clickNumber = () => {
+    console.log("hi");
+  };
 
   return (
     <div className="container">
